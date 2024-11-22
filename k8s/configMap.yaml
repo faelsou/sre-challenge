@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-config
+  namespace: elo-sre
+data:
+  my.cnf: |
+    [mysqld]
+    # Adicione suas configurações personalizadas aqui
+    [client]
+    # Configuração do cliente MySQL
